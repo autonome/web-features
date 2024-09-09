@@ -1,7 +1,7 @@
-draft_date: 2024-08-28
-name: CSS Values and Units Module Level 4
+draft_date: 2024-09-09
+name: CSS Values and Units Module Level 5
 description: TODO
-spec: https://drafts.csswg.org/css-values-4/
+spec: https://drafts.csswg.org/css-values-5/
 compat_features:
   - css.at-rules.media.calc
   - css.properties.content.url
