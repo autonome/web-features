@@ -21,7 +21,6 @@ compat_features:
   #   safari: "13.1"
   #   safari_ios: "13.4"
   - api.MathMLElement.blur
-  - api.MathMLElement.dataset
   - api.MathMLElement.focus
   - api.MathMLElement.tabIndex
 

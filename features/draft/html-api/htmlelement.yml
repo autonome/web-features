@@ -18,7 +18,6 @@ compat_features:
   - api.HTMLElement.change_event
   - api.HTMLElement.click
   - api.HTMLElement.contentEditable
-  - api.HTMLElement.dataset
   - api.HTMLElement.dir
   - api.HTMLElement.drag_event
   - api.HTMLElement.dragend_event
