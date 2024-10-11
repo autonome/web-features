@@ -12,6 +12,4 @@ group: html-api
 compat_features:
   - api.DedicatedWorkerGlobalScope
   - api.DedicatedWorkerGlobalScope.close
-  - api.DedicatedWorkerGlobalScope.message_event
   - api.DedicatedWorkerGlobalScope.name
-  - api.DedicatedWorkerGlobalScope.postMessage

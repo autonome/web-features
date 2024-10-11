@@ -29,7 +29,6 @@ compat_features:
   - api.Document.images
   - api.Document.lastModified
   - api.Document.links
-  - api.Document.location
   - api.Document.open
   - api.Document.plugins
   - api.Document.readyState

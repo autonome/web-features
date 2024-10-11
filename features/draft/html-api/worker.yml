@@ -13,7 +13,5 @@ compat_features:
   - api.Worker
   - api.Worker.Worker
   - api.Worker.error_event
-  - api.Worker.message_event
   - api.Worker.messageerror_event
-  - api.Worker.postMessage
   - api.Worker.terminate

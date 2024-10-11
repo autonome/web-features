@@ -21,7 +21,6 @@ compat_features:
   #   safari: "4"
   #   safari_ios: "5"
   - api.Worker
-  - api.Worker.postMessage
   - api.Worker.terminate
 
   # baseline: high
@@ -37,7 +36,6 @@ compat_features:
   #   safari_ios: "5"
   - api.Worker.Worker
   - api.Worker.error_event
-  - api.Worker.message_event
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false

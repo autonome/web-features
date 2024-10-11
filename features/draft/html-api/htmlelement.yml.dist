@@ -3,10 +3,7 @@
 
 status:
   baseline: false
-  support:
-    firefox: "111"
-    firefox_android: "111"
-    safari_ios: "15.4"
+  support: {}
 compat_features:
   # baseline: high
   # baseline_low_date: 2015-07-29
@@ -255,3 +252,8 @@ compat_features:
   #   safari: "14"
   #   safari_ios: "14"
   - api.HTMLElement.accessKeyLabel
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support: {}
+  - api.HTMLElement.autocorrect

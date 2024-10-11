@@ -27,8 +27,6 @@ compat_features:
   #   safari_ios: "5"
   - api.DedicatedWorkerGlobalScope
   - api.DedicatedWorkerGlobalScope.close
-  - api.DedicatedWorkerGlobalScope.message_event
-  - api.DedicatedWorkerGlobalScope.postMessage
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: high
