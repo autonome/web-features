@@ -11,7 +11,7 @@ status:
     edge: "12"
     firefox: "33"
     firefox_android: "33"
-    safari: ≤4
+    safari: "3"
     safari_ios: "1"
 compat_features:
   # baseline: high
@@ -23,7 +23,7 @@ compat_features:
   #   edge: "12"
   #   firefox: "1"
   #   firefox_android: "4"
-  #   safari: ≤4
+  #   safari: "3"
   #   safari_ios: "1"
   - api.HTMLFormControlsCollection
 
@@ -37,6 +37,6 @@ compat_features:
   #   edge: "12"
   #   firefox: "33"
   #   firefox_android: "33"
-  #   safari: ≤4
+  #   safari: "3"
   #   safari_ios: "1"
   - api.HTMLFormControlsCollection.namedItem
