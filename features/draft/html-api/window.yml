@@ -27,7 +27,6 @@ compat_features:
   - api.Window.languagechange_event
   - api.Window.length
   - api.Window.load_event
-  - api.Window.localStorage
   - api.Window.name
   - api.Window.navigator
   - api.Window.offline_event
@@ -44,9 +43,7 @@ compat_features:
   - api.Window.prompt
   - api.Window.rejectionhandled_event
   - api.Window.self
-  - api.Window.sessionStorage
   - api.Window.stop
-  - api.Window.storage_event
   - api.Window.top
   - api.Window.unhandledrejection_event
   - api.Window.window

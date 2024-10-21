@@ -90,38 +90,6 @@ compat_features:
   # baseline_low_date: 2015-07-29
   # baseline_high_date: 2018-01-29
   # support:
-  #   chrome: "1"
-  #   chrome_android: "18"
-  #   edge: "12"
-  #   firefox: "9"
-  #   firefox_android: "9"
-  #   safari: "3.1"
-  #   safari_ios: "2"
-  - api.HTMLElement.drag_event
-  - api.HTMLElement.dragend_event
-  - api.HTMLElement.dragenter_event
-  - api.HTMLElement.dragleave_event
-  - api.HTMLElement.dragover_event
-  - api.HTMLElement.dragstart_event
-  - api.HTMLElement.drop_event
-
-  # baseline: high
-  # baseline_low_date: 2015-07-29
-  # baseline_high_date: 2018-01-29
-  # support:
-  #   chrome: "4"
-  #   chrome_android: "18"
-  #   edge: "12"
-  #   firefox: "2"
-  #   firefox_android: "4"
-  #   safari: "5"
-  #   safari_ios: "4"
-  - api.HTMLElement.draggable
-
-  # baseline: high
-  # baseline_low_date: 2015-07-29
-  # baseline_high_date: 2018-01-29
-  # support:
   #   chrome: "6"
   #   chrome_android: "18"
   #   edge: "12"
