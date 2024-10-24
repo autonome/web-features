@@ -11,3 +11,4 @@ group: html-api
 #  compute_from:
 compat_features:
   - api.isSecureContext
+  - api.isSecureContext.worker_support

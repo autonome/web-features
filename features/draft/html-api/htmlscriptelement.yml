@@ -11,3 +11,6 @@ group: html-api
 #  compute_from:
 compat_features:
   - api.HTMLScriptElement.noModule
+  - api.HTMLScriptElement.referrerPolicy.no-referrer-when-downgrade
+  - api.HTMLScriptElement.referrerPolicy.origin-when-cross-origin
+  - api.HTMLScriptElement.referrerPolicy.unsafe-url

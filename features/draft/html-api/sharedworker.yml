@@ -12,5 +12,7 @@ group: html-api
 compat_features:
   - api.SharedWorker
   - api.SharedWorker.SharedWorker
+  - api.SharedWorker.SharedWorker.mime_checks
+  - api.SharedWorker.SharedWorker.options_name_parameter
   - api.SharedWorker.error_event
   - api.SharedWorker.port

@@ -11,8 +11,10 @@ group: html-api
 #  compute_from:
 compat_features:
   - api.Element.auxclick_event
+  - api.Element.auxclick_event.type_pointerevent
   - api.Element.beforematch_event
   - api.Element.blur_event
+  - api.Element.click_event.type_pointerevent
   - api.Element.focus_event
   - api.Element.getHTML
   - api.Element.innerHTML

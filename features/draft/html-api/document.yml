@@ -21,6 +21,7 @@ compat_features:
   - api.Document.designMode
   - api.Document.dir
   - api.Document.embeds
+  - api.Document.featurePolicy
   - api.Document.forms
   - api.Document.getElementsByName
   - api.Document.hasFocus

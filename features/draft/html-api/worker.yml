@@ -12,6 +12,9 @@ group: html-api
 compat_features:
   - api.Worker
   - api.Worker.Worker
+  - api.Worker.Worker.mime_checks
+  - api.Worker.Worker.options_name_parameter
   - api.Worker.error_event
   - api.Worker.messageerror_event
   - api.Worker.terminate
+  - api.Worker.worker_support

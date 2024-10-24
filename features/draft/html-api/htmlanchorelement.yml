@@ -12,3 +12,6 @@ group: html-api
 compat_features:
   - api.HTMLAnchorElement.download
   - api.HTMLAnchorElement.ping
+  - api.HTMLAnchorElement.referrerPolicy.no-referrer-when-downgrade
+  - api.HTMLAnchorElement.referrerPolicy.origin-when-cross-origin
+  - api.HTMLAnchorElement.referrerPolicy.unsafe-url

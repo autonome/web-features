@@ -146,6 +146,14 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "92"
+  #   chrome_android: "92"
+  #   edge: "92"
+  - api.Element.auxclick_event.type_pointerevent
+  - api.Element.click_event.type_pointerevent
+
+  # baseline: false
+  # support:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"

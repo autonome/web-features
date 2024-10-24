@@ -10,5 +10,4 @@ group: html-api
 #status:
 #  compute_from:
 compat_features:
-  - api.CanvasPattern
-  - api.CanvasPattern.setTransform
+  - api.CanvasPattern.setTransform.dommatrix

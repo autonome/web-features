@@ -10,5 +10,4 @@ group: html-api
 #status:
 #  compute_from:
 compat_features:
-  - api.NotRestoredReasonDetails
-  - api.NotRestoredReasonDetails.reason
+  - api.NotRestoredReasonDetails.toJSON

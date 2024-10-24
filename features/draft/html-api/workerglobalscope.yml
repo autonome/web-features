@@ -13,6 +13,7 @@ compat_features:
   - api.WorkerGlobalScope
   - api.WorkerGlobalScope.error_event
   - api.WorkerGlobalScope.importScripts
+  - api.WorkerGlobalScope.importScripts.mime_checks
   - api.WorkerGlobalScope.languagechange_event
   - api.WorkerGlobalScope.location
   - api.WorkerGlobalScope.navigator

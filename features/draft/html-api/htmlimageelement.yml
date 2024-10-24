@@ -11,6 +11,9 @@ group: html-api
 #  compute_from:
 compat_features:
   - api.HTMLImageElement.currentSrc
+  - api.HTMLImageElement.referrerPolicy.no-referrer-when-downgrade
+  - api.HTMLImageElement.referrerPolicy.origin-when-cross-origin
+  - api.HTMLImageElement.referrerPolicy.unsafe-url
   - api.HTMLImageElement.sizes
   - api.HTMLImageElement.sizes.auto
   - api.HTMLImageElement.srcset

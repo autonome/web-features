@@ -32,6 +32,10 @@ compat_features:
   - api.Window.offline_event
   - api.Window.online_event
   - api.Window.open
+  - api.Window.open.features_parameter_attributionsrc
+  - api.Window.open.features_parameter_popup
+  - api.Window.open.once_per_event
+  - api.Window.open.relative-multi-screen
   - api.Window.opener
   - api.Window.originAgentCluster
   - api.Window.pagehide_event
@@ -40,6 +44,7 @@ compat_features:
   - api.Window.pageswap_event
   - api.Window.parent
   - api.Window.popstate_event
+  - api.Window.postMessage.transfer_parameter
   - api.Window.prompt
   - api.Window.rejectionhandled_event
   - api.Window.self

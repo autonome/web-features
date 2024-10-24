@@ -203,6 +203,18 @@ compat_features:
   #   safari_ios: "15.4"
   - api.HTMLElement.nonce
 
+  # baseline: low
+  # baseline_low_date: 2024-04-16
+  # support:
+  #   chrome: "116"
+  #   chrome_android: "116"
+  #   edge: "116"
+  #   firefox: "125"
+  #   firefox_android: "125"
+  #   safari: "17"
+  #   safari_ios: "17"
+  - api.HTMLElement.togglePopover.returns_boolean
+
   # baseline: false
   # support:
   #   chrome: "66"
@@ -215,13 +227,38 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "51"
+  #   chrome_android: "51"
+  #   edge: ≤79
+  #   safari: "5.1"
+  #   safari_ios: "5"
+  - api.HTMLElement.contentEditable.plaintext-only
+
+  # baseline: false
+  # support:
+  #   chrome: "64"
+  #   edge: "17"
+  #   firefox: "68"
+  #   safari: "15"
+  #   safari_ios: "15.5"
+  - api.HTMLElement.focus.options_preventScroll_parameter
+
+  # baseline: false
+  # support:
   #   firefox: "8"
   #   firefox_android: "8"
   #   safari: "14"
   #   safari_ios: "14"
   - api.HTMLElement.accessKeyLabel
 
+  # baseline: false
+  # support:
+  #   firefox: "104"
+  #   firefox_android: "104"
+  - api.HTMLElement.focus.options_focusVisible_parameter
+
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support: {}
   - api.HTMLElement.autocorrect
+  - api.HTMLElement.command_event

@@ -4,10 +4,8 @@
 status:
   baseline: false
   support:
-    firefox: "57"
-    firefox_android: "57"
-    safari: "16.4"
-    safari_ios: "16.4"
+    firefox: "81"
+    firefox_android: "81"
 compat_features:
   # baseline: high
   # baseline_low_date: 2015-07-29
@@ -37,7 +35,19 @@ compat_features:
   - api.Worker.Worker
   - api.Worker.error_event
 
-  # ⬇️ Same status as overall feature ⬇️
+  # baseline: high
+  # baseline_low_date: 2019-03-25
+  # baseline_high_date: 2021-09-25
+  # support:
+  #   chrome: "70"
+  #   chrome_android: "70"
+  #   edge: "18"
+  #   firefox: "55"
+  #   firefox_android: "55"
+  #   safari: "12.1"
+  #   safari_ios: "12.2"
+  - api.Worker.Worker.options_name_parameter
+
   # baseline: false
   # support:
   #   firefox: "57"
@@ -45,3 +55,17 @@ compat_features:
   #   safari: "16.4"
   #   safari_ios: "16.4"
   - api.Worker.messageerror_event
+
+  # baseline: false
+  # support:
+  #   firefox: "81"
+  #   firefox_android: "81"
+  #   safari: "16"
+  #   safari_ios: "16"
+  - api.Worker.Worker.mime_checks
+
+  # baseline: false
+  # support:
+  #   firefox: "34"
+  #   firefox_android: "34"
+  - api.Worker.worker_support

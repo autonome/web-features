@@ -18,10 +18,14 @@ compat_features:
   - api.HTMLElement.blur
   - api.HTMLElement.change_event
   - api.HTMLElement.click
+  - api.HTMLElement.command_event
   - api.HTMLElement.contentEditable
+  - api.HTMLElement.contentEditable.plaintext-only
   - api.HTMLElement.dir
   - api.HTMLElement.enterKeyHint
   - api.HTMLElement.focus
+  - api.HTMLElement.focus.options_focusVisible_parameter
+  - api.HTMLElement.focus.options_preventScroll_parameter
   - api.HTMLElement.hidden
   - api.HTMLElement.innerText
   - api.HTMLElement.inputMode
@@ -31,3 +35,4 @@ compat_features:
   - api.HTMLElement.outerText
   - api.HTMLElement.spellcheck
   - api.HTMLElement.title
+  - api.HTMLElement.togglePopover.returns_boolean

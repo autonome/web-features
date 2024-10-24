@@ -8,5 +8,4 @@ status:
     chrome_android: "125"
     edge: "125"
 compat_features:
-  - api.NotRestoredReasonDetails
-  - api.NotRestoredReasonDetails.reason
+  - api.NotRestoredReasonDetails.toJSON

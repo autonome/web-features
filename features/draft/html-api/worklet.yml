@@ -12,3 +12,4 @@ group: html-api
 compat_features:
   - api.Worklet
   - api.Worklet.addModule
+  - api.Worklet.ecmascript_modules

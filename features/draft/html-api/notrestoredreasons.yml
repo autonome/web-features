@@ -10,10 +10,4 @@ group: html-api
 #status:
 #  compute_from:
 compat_features:
-  - api.NotRestoredReasons
-  - api.NotRestoredReasons.children
-  - api.NotRestoredReasons.id
-  - api.NotRestoredReasons.name
-  - api.NotRestoredReasons.reasons
-  - api.NotRestoredReasons.src
-  - api.NotRestoredReasons.url
+  - api.NotRestoredReasons.toJSON

@@ -48,6 +48,11 @@ compat_features:
   - api.HTMLInputElement.selectionStart
   - api.HTMLInputElement.setRangeText
   - api.HTMLInputElement.setSelectionRange
+  - api.HTMLInputElement.showPicker.autocomplete_input
+  - api.HTMLInputElement.showPicker.datalist_input
+  - api.HTMLInputElement.showPicker.month_input
+  - api.HTMLInputElement.showPicker.time_input
+  - api.HTMLInputElement.showPicker.week_input
   - api.HTMLInputElement.size
   - api.HTMLInputElement.src
   - api.HTMLInputElement.step

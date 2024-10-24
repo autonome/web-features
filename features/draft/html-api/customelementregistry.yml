@@ -10,6 +10,7 @@ group: html-api
 #status:
 #  compute_from:
 compat_features:
+  - api.CustomElementRegistry.define.disabledFeatures_static_property
   - api.CustomElementRegistry.get
   - api.CustomElementRegistry.getName
   - api.CustomElementRegistry.upgrade

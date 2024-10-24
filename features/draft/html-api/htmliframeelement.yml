@@ -10,4 +10,8 @@ group: html-api
 #status:
 #  compute_from:
 compat_features:
+  - api.HTMLIFrameElement.featurePolicy
+  - api.HTMLIFrameElement.referrerPolicy.no-referrer-when-downgrade
+  - api.HTMLIFrameElement.referrerPolicy.origin-when-cross-origin
+  - api.HTMLIFrameElement.referrerPolicy.unsafe-url
   - api.HTMLIFrameElement.sandbox

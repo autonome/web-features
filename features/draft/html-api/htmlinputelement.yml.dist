@@ -7,8 +7,6 @@ status:
     chrome: "113"
     chrome_android: "113"
     edge: "113"
-    safari: "16.4"
-    safari_ios: "16.4"
 compat_features:
   # baseline: high
   # baseline_low_date: 2015-07-29
@@ -328,3 +326,29 @@ compat_features:
   #   safari_ios: "4"
   - api.HTMLInputElement.stepDown
   - api.HTMLInputElement.stepUp
+
+  # baseline: false
+  # support:
+  #   chrome: "99"
+  #   chrome_android: "99"
+  #   edge: "99"
+  #   firefox_android: "101"
+  #   safari: "16"
+  - api.HTMLInputElement.showPicker.time_input
+
+  # baseline: false
+  # support:
+  #   chrome: "99"
+  #   chrome_android: "99"
+  #   edge: "99"
+  #   firefox_android: "121"
+  - api.HTMLInputElement.showPicker.month_input
+  - api.HTMLInputElement.showPicker.week_input
+
+  # baseline: false
+  # support:
+  #   chrome: "99"
+  #   chrome_android: "99"
+  #   edge: "99"
+  - api.HTMLInputElement.showPicker.autocomplete_input
+  - api.HTMLInputElement.showPicker.datalist_input

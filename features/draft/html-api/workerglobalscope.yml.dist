@@ -6,7 +6,7 @@ status:
   support:
     firefox: "74"
     firefox_android: "79"
-    safari_ios: "11"
+    safari_ios: "16"
 compat_features:
   # baseline: high
   # baseline_low_date: 2015-07-29
@@ -75,6 +75,18 @@ compat_features:
   #   safari_ios: "11"
   - api.WorkerGlobalScope.rejectionhandled_event
   - api.WorkerGlobalScope.unhandledrejection_event
+
+  # baseline: low
+  # baseline_low_date: 2022-09-12
+  # support:
+  #   chrome: "71"
+  #   chrome_android: "71"
+  #   edge: "79"
+  #   firefox: "67"
+  #   firefox_android: "67"
+  #   safari: "16"
+  #   safari_ios: "16"
+  - api.WorkerGlobalScope.importScripts.mime_checks
 
   # baseline: false
   # support:

@@ -35,6 +35,17 @@ compat_features:
   - api.HTMLImageElement.currentSrc
   - api.HTMLImageElement.sizes
 
+  # baseline: false
+  # support:
+  #   chrome: "52"
+  #   chrome_android: "52"
+  #   edge: "79"
+  #   safari: "14"
+  #   safari_ios: "14"
+  - api.HTMLImageElement.referrerPolicy.no-referrer-when-downgrade
+  - api.HTMLImageElement.referrerPolicy.origin-when-cross-origin
+  - api.HTMLImageElement.referrerPolicy.unsafe-url
+
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:

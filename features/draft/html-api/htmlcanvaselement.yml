@@ -10,4 +10,15 @@ group: html-api
 #status:
 #  compute_from:
 compat_features:
+  - api.HTMLCanvasElement.getContext.2d_context
+  - api.HTMLCanvasElement.getContext.bitmaprenderer_context
   - api.HTMLCanvasElement.getContext.bitmaprenderer_context.options_alpha_parameter
+  - api.HTMLCanvasElement.getContext.webgl2_context
+  - api.HTMLCanvasElement.getContext.webgl_context
+  - api.HTMLCanvasElement.toBlob.quality_parameter
+  - api.HTMLCanvasElement.toBlob.type_parameter_jpeg
+  - api.HTMLCanvasElement.toBlob.type_parameter_png
+  - api.HTMLCanvasElement.toBlob.type_parameter_webp
+  - api.HTMLCanvasElement.toDataURL.type_parameter_jpeg
+  - api.HTMLCanvasElement.toDataURL.type_parameter_png
+  - api.HTMLCanvasElement.toDataURL.type_parameter_webp
