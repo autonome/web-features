@@ -23,5 +23,4 @@ compat_features:
   - api.Element.keyup_event
   - api.Element.outerHTML
   - api.Element.scroll_event
-  - api.Element.securitypolicyviolation_event
   - api.Element.wheel_event

@@ -37,7 +37,6 @@ compat_features:
   - api.Document.referrer
   - api.Document.scripts
   - api.Document.scroll_event
-  - api.Document.securitypolicyviolation_event
   - api.Document.title
   - api.Document.visibilityState
   - api.Document.visibilitychange_event
