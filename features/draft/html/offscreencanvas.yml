@@ -1,0 +1,15 @@
+# BCD: https://github.com/mdn/browser-compat-data/tree/main/api/OffscreenCanvas.json
+# MDN: https://developer.mozilla.org/docs/Web/API/OffscreenCanvas
+# CIU: https://caniuse.com/?search=OffscreenCanvas
+draft_date: 2024-09-30
+name: OffscreenCanvas
+description: "When using the &lt;canvas&gt; element or the Canvas API, rendering, animation, and user interaction usually happen on the main execution thread of a web application.  The computation relating to canvas animations and rendering can have a significant impact on application performance."
+spec: https://html.spec.whatwg.org/multipage/canvas.html#the-offscreencanvas-interface
+#caniuse:
+group: html-api
+#status:
+#  compute_from:
+compat_features:
+  - api.OffscreenCanvas.convertToBlob.option_type_parameter_webp
+  - api.OffscreenCanvas.getContext.webgl2_context
+  - api.OffscreenCanvas.getContext.webgl_context

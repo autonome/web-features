@@ -1,0 +1,24 @@
+# BCD: https://github.com/mdn/browser-compat-data/tree/main/api/HTMLCanvasElement.json
+# MDN: https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement
+# CIU: https://caniuse.com/?search=HTMLCanvasElement
+draft_date: 2024-09-30
+name: HTMLCanvasElement
+description: "The HTMLCanvasElement interface provides properties and methods for manipulating the layout and presentation of &lt;canvas&gt; elements. The HTMLCanvasElement interface also inherits the properties and methods of the HTMLElement interface."
+spec: https://html.spec.whatwg.org/multipage/canvas.html#htmlcanvaselement
+#caniuse:
+group: html-api
+#status:
+#  compute_from:
+compat_features:
+  - api.HTMLCanvasElement.getContext.2d_context
+  - api.HTMLCanvasElement.getContext.bitmaprenderer_context
+  - api.HTMLCanvasElement.getContext.bitmaprenderer_context.options_alpha_parameter
+  - api.HTMLCanvasElement.getContext.webgl2_context
+  - api.HTMLCanvasElement.getContext.webgl_context
+  - api.HTMLCanvasElement.toBlob.quality_parameter
+  - api.HTMLCanvasElement.toBlob.type_parameter_jpeg
+  - api.HTMLCanvasElement.toBlob.type_parameter_png
+  - api.HTMLCanvasElement.toBlob.type_parameter_webp
+  - api.HTMLCanvasElement.toDataURL.type_parameter_jpeg
+  - api.HTMLCanvasElement.toDataURL.type_parameter_png
+  - api.HTMLCanvasElement.toDataURL.type_parameter_webp

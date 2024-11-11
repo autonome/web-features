@@ -1,0 +1,48 @@
+# BCD: https://github.com/mdn/browser-compat-data/tree/main/api/Navigator.json
+# MDN: https://developer.mozilla.org/docs/Web/API/Navigator
+# CIU: https://caniuse.com/?search=Navigator
+draft_date: 2024-09-30
+name: Navigator
+description: "The Navigator interface represents the state and the identity of the user agent. It allows scripts to query it and to register themselves to carry on some activities."
+spec: https://html.spec.whatwg.org/multipage/system-state.html#the-navigator-object
+#caniuse:
+group: html-api
+#status:
+#  compute_from:
+compat_features:
+  - api.Navigator
+  - api.Navigator.authentication
+  - api.Navigator.cookieEnabled
+  - api.Navigator.hardwareConcurrency
+  - api.Navigator.language
+  - api.Navigator.languages
+  - api.Navigator.onLine
+  - api.Navigator.pdfViewerEnabled
+  - api.Navigator.registerProtocolHandler
+  - api.Navigator.registerProtocolHandler.scheme_parameter_bitcoin
+  - api.Navigator.registerProtocolHandler.scheme_parameter_ftp
+  - api.Navigator.registerProtocolHandler.scheme_parameter_ftps
+  - api.Navigator.registerProtocolHandler.scheme_parameter_geo
+  - api.Navigator.registerProtocolHandler.scheme_parameter_im
+  - api.Navigator.registerProtocolHandler.scheme_parameter_irc
+  - api.Navigator.registerProtocolHandler.scheme_parameter_ircs
+  - api.Navigator.registerProtocolHandler.scheme_parameter_magnet
+  - api.Navigator.registerProtocolHandler.scheme_parameter_mailto
+  - api.Navigator.registerProtocolHandler.scheme_parameter_matrix
+  - api.Navigator.registerProtocolHandler.scheme_parameter_mms
+  - api.Navigator.registerProtocolHandler.scheme_parameter_news
+  - api.Navigator.registerProtocolHandler.scheme_parameter_nntp
+  - api.Navigator.registerProtocolHandler.scheme_parameter_openpgp4fpr
+  - api.Navigator.registerProtocolHandler.scheme_parameter_sftp
+  - api.Navigator.registerProtocolHandler.scheme_parameter_sip
+  - api.Navigator.registerProtocolHandler.scheme_parameter_sms
+  - api.Navigator.registerProtocolHandler.scheme_parameter_smsto
+  - api.Navigator.registerProtocolHandler.scheme_parameter_ssh
+  - api.Navigator.registerProtocolHandler.scheme_parameter_tel
+  - api.Navigator.registerProtocolHandler.scheme_parameter_urn
+  - api.Navigator.registerProtocolHandler.scheme_parameter_webcal
+  - api.Navigator.registerProtocolHandler.scheme_parameter_wtai
+  - api.Navigator.registerProtocolHandler.scheme_parameter_xmpp
+  - api.Navigator.registerProtocolHandler.secure_context_required
+  - api.Navigator.unregisterProtocolHandler
+  - api.Navigator.userAgent
